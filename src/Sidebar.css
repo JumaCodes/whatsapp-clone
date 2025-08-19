@@ -56,3 +56,33 @@
     background: white;
     overflow-x: hidden;
 }
+
+/* Style logout icon in sidebar header */
+.sidebar-headerRight .logout-btn {
+    color: #ff5252;
+    /* red color */
+    transition: transform 0.2s;
+}
+
+.sidebar-headerRight .logout-btn:hover {
+    transform: scale(1.2);
+}
+
+
+.sidebar-headerRight .logout-btn:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 82, 82, 0.1);
+    /* soft red background */
+}
+
+/* Sidebar.css */
+.sidebar-headerRight .logout-btn {
+    color: #ff5252;
+    transition: transform 0.2s;
+}
+
+.sidebar-headerRight .logout-btn:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 82, 82, 0.1);
+    /* optional subtle hover background */
+}

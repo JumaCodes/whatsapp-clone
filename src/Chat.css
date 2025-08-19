@@ -69,30 +69,41 @@
 
 .chat-footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 62px;
-    border: 1px solid lightgray;
-}
-
-.chat-footer>form {
-    flex: 1;
-    display: flex;
-}
-
-.chat-footer>form>input {
-    flex: 1;
-    border-radius: 30px;
     padding: 10px;
-    border: none;
-    outline: none;
-}
-
-.chat-footer>form>button {
-    display: none;
+    border-top: 1px solid lightgray;
 }
 
 .chat-footer>.MuiSvgIcon-root {
-    padding: 10px;
     color: gray;
+    margin-right: 10px;
+}
+
+.chat-input-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+
+.chat-input-wrapper input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+    background: transparent;
+    font-size: 16px;
+}
+
+.mic-icon {
+    color: #128C7E;
+    margin-right: 10px;
+}
+
+.send-btn {
+    padding: 8px;
 }
